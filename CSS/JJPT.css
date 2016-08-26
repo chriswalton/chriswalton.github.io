@@ -21,6 +21,9 @@ body {
     margin-top: 50;
     height: 35%;
     }
+    #test > li {
+        width: 100vw;
+    }
 }
 
 .item,
@@ -43,14 +46,15 @@ body {
     -o-background-size: cover;
 }
 
-.navbar {
-    color:;
-}
-
 .navbar-inverse {
     background-color: #fff;
     border: none;
 }
+
+.navbar-collapse {
+    overflow: hidden;
+}
+
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
@@ -60,6 +64,7 @@ body {
 .navbar-nav {
     float: right;
 }
+
 h2 {
  margin-top: 45px;   
 }
@@ -86,6 +91,19 @@ h2 {
     padding-bottom: 18px;
 }
 
+.carousel {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.shopcara {
+    height: 400px;
+}
+
+
+.list-group {
+    margin-top: 60px;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar-nav {
@@ -93,10 +111,21 @@ h2 {
     }
 }
 
+#tester {
+    text-decoration: none;
+}
+
+#tester:hover #head-text {
+    text-decoration: underline;
+}
+
+#tester:hover #sub-text {
+    text-decoration: none;
+}
+
 p.lrg-body {
     font-size: 18px !important;
 }
-
 
 .carousel-caption {
     color: #000;
