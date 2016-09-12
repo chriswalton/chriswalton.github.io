@@ -202,7 +202,7 @@ p.lrg-body {
 
 @media only screen and (max-width: 768px) {
     .tab-content {
-    margin-top: 0px;
+    margin-top: -30px;
     }
 }
 
