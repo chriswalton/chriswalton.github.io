@@ -75,6 +75,10 @@ h2 {
  margin-top: 45px;   
 }
 
+.ptheader {
+    margin-top: 20px;
+}
+
 .navbar-inverse .navbar-nav>li>a:focus, 
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #fff;
