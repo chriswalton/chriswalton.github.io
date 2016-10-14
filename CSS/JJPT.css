@@ -10,6 +10,10 @@ body {
     font-family: 'TradeGothicLT', 'Open Sans', sans-serif;
 }
 
+.pageheader {
+    margin-top: 70px;
+}
+
 .jumbotron {
     background-color: #fff;
     margin-top: -40px;
