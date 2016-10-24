@@ -5,6 +5,7 @@
  */
 
 html,
+
 body {
     height: 100%;
     font-family: 'TradeGothicLT', 'Open Sans', sans-serif;
@@ -12,6 +13,14 @@ body {
 
 .pageheader {
     margin-top: 70px;
+}
+
+a.navbar-brand.logo {
+    margin-top: -10px;
+}
+
+.navbar-brand {
+    height: 70px;
 }
 
 .jumbotron {
@@ -79,7 +88,13 @@ body {
 }
 
 h2 {
- margin-top: 45px;   
+ margin-top: 55px;   
+}
+
+@media only screen and (max-width: 991px) {
+    .ptheader {
+    margin-top: 60px;
+    }
 }
 
 .ptheader {

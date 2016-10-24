@@ -89,7 +89,7 @@ h2 {
 .navbar-inverse .navbar-nav>li>a:focus, 
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #fff;
-    background-color: darkgray;
+    background-color: #6cac6f;
 }
 
 .navbar-inverse .navbar-brand:focus, 
@@ -98,9 +98,9 @@ h2 {
 }
 
 .navbar-toggle {
-    color: darkgray;
-    background-color: darkgray;
-    border-color: darkgray;
+    color: #6cac6f;
+    background-color: #6cac6f;
+    border-color: #6cac6f;
 }
 
 .programmes-header {
