@@ -97,6 +97,10 @@ h2 {
     }
 }
 
+.ptheader {
+    margin-top: 20px;
+}
+
 .navbar-inverse .navbar-nav>li>a:focus, 
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #fff;
@@ -128,6 +132,9 @@ h2 {
     height: 400px;
 }
 
+.instagram {
+    margin-bottom: 20px;
+}
 
 .list-group {
     margin-top: 60px;
