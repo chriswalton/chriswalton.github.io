@@ -133,7 +133,7 @@ h2 {
 }
 
 .list-group {
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -231,7 +231,7 @@ p.lrg-body {
 
 @media only screen and (min-width: 768px) {
     .tab-content {
-    margin-top: 60px;
+    margin-top: 0px;
     }
 }
 
