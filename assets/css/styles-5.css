@@ -548,7 +548,7 @@ label {
 }
 /* ======= Story Section ======= */
 .story-section {
-  background: #413a38 url('../images/story-bg1.jpg') no-repeat 50% top;
+  background: #413a38 url('../images/julialeewed.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -782,7 +782,7 @@ label {
 .comments-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: #fd767b url('../images/heart-pattern.png') repeat center top;
+  background: #fd767b;
 }
 .comments-section .title {
   font-size: 24px;
