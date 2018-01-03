@@ -1,0 +1,27 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+ErrorDocument 400 http://juliaandlee.co.uk/
+ErrorDocument 401 http://juliaandlee.co.uk/
+ErrorDocument 402 http://juliaandlee.co.uk/
+ErrorDocument 403 http://juliaandlee.co.uk/
+ErrorDocument 404 http://juliaandlee.co.uk/
+ErrorDocument 405 http://juliaandlee.co.uk/
+ErrorDocument 406 http://juliaandlee.co.uk/
+ErrorDocument 407 http://juliaandlee.co.uk/
+ErrorDocument 408 http://juliaandlee.co.uk/
+ErrorDocument 409 http://juliaandlee.co.uk/
+ErrorDocument 410 http://juliaandlee.co.uk/
+ErrorDocument 411 http://juliaandlee.co.uk/
+ErrorDocument 412 http://juliaandlee.co.uk/
+ErrorDocument 413 http://juliaandlee.co.uk/
+ErrorDocument 414 http://juliaandlee.co.uk/
+ErrorDocument 415 http://juliaandlee.co.uk/
+ErrorDocument 416 http://juliaandlee.co.uk/
+ErrorDocument 417 http://juliaandlee.co.uk/
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
